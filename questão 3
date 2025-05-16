@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">MeuPortfólio</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="sobre">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixH5VkndnewICsaStMYCUTtNZls247IhK2E6XRWAN-W5e0SfOsFa51F8uUYzTvigzdFs&usqp=CAU" alt="Foto de perfil" />
+    <div class="texto">
+      <h2>Olá! Eu sou Eduardo, um desenvolvedor!</h2>
+      <p>Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos desenvolvidos com HTML, CSS e outras tecnologias para construir soluções bonitas e funcionais.</p>
+    </div>
+  </section>
+
+  <section class="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="galeria">
+      <div class="projeto">Projeto 1<br><small>Descrição breve do projeto.</small></div>
+      <div class="projeto">Projeto 2<br><small>Descrição breve do projeto.</small></div>
+      <div class="projeto">Projeto 3<br><small>Descrição breve do projeto.</small></div>
+      <div class="projeto">Projeto 4<br><small>Descrição breve do projeto.</small></div>
+      <div class="projeto">Projeto 5<br><small>Descrição breve do projeto.</small></div>
+      <div class="projeto">Projeto 6<br><small>Descrição breve do projeto.</small></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 - MeuPortfólio. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+-------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #2196f3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  .sobre {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .sobre img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .sobre .texto {
+    max-width: 600px;
+  }
+  
+  .sobre h2 {
+    margin-bottom: 10px;
+  }
+  
+  .projetos {
+    padding: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .projetos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .projeto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 30px;
+  }
+-----------------------
+trem fei, cabeça chegou a doer, que chatura esses detalhezinhos, tive que pedir ajuda pro chat se nao eu me matava.
