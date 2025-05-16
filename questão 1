@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Centralizada</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <div class="box red"></div>
+      <div class="box blue"></div>
+      <div class="box green"></div>
+      <div class="box yellow"></div>
+    </div>
+  </div>
+</body>
+</html>
+----------------------------------------------
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    grid-gap: 10px;
+  }
+  
+  .box {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .red {
+    background-color: #f66;
+  }
+  
+  .blue {
+    background-color: #66b2ff;
+  }
+  
+  .green {
+    background-color: #8f8;
+  }
+  
+  .yellow {
+    background-color: #ff8;
+  }
+  ---------------------
+Ajudinha de leve do chat, porem sem grandes dificuldades, vamos pro proximo
